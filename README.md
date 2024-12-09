@@ -1,22 +1,22 @@
-# Sistem za upravljanje bibliotekom
+# 📚 Sistem za upravljanje bibliotekom
 
 Ovaj projekat implementira aplikaciju za upravljanje bibliotekom koristeći Python, Tkinter za grafički interfejs i SQLAlchemy za upravljanje bazom podataka.
 
-## Funkcionalnosti
+## 🛠️ Funkcionalnosti
 
 - Dodavanje, ažuriranje, pretraga i brisanje knjiga, autora, članova, izdavača, rezervacija i transakcija.
 - Prikaz svih entiteta u biblioteci putem grafičkog korisničkog interfejsa.
 - Intuitivan dizajn korisničkog interfejsa koji omogućava lako upravljanje podacima.
 
-## Tehnologije
+## ⚙️ Tehnologije
 
 - **Python**: Glavni programski jezik.
 - **Tkinter**: Za grafički korisnički interfejs.
 - **SQLAlchemy**: Za rad sa bazom podataka i ORM.
 - **SQLite**: Baza podataka korišćena u projektu.
 
-## Struktura Projekta
-
+## 📂 Struktura Projekta
+ 
 ```plaintext
 ├── database/
 │   ├── db_setup.py          # Postavka baze podataka
@@ -43,3 +43,25 @@ Ovaj projekat implementira aplikaciju za upravljanje bibliotekom koristeći Pyth
 └── requirements.txt         # Lista potrebnih biblioteka
 ```
 
+## 💻 Kako Pokrenuti Projekat
+
+### 1. Kloniranje Repozitorijuma
+```bash
+git clone https://github.com/username/library-management-system.git
+cd library-management-system
+```
+
+## 💻 Instalacija Zavisnosti
+Preporučuje se korišćenje virtuelnog okruženja:
+```bash
+python -m venv venv
+source vvenv/bin/activate  # Za Linux/MacOS
+venv\Scripts\activate     # Za Windows
+pip install -r requirements.txt
+```
+
+## 💻 Pokretanje Aplikacije
+Pokrenite aplikaciju iz glavnog fajla:
+```bash
+python app.py
+```
