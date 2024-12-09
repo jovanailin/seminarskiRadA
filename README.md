@@ -1,28 +1,45 @@
-# Seminarski Rad A
-## Python i ORM pristup
+# Sistem za upravljanje bibliotekom
 
-### Sistem za Upravljanje Bibliotekom
+Ovaj projekat implementira aplikaciju za upravljanje bibliotekom koristeći Python, Tkinter za grafički interfejs i SQLAlchemy za upravljanje bazom podataka.
 
----
+## Funkcionalnosti
 
-## 📚 Sistem za Upravljanje Bibliotekom
+- Dodavanje, ažuriranje, pretraga i brisanje knjiga, autora, članova, izdavača, rezervacija i transakcija.
+- Prikaz svih entiteta u biblioteci putem grafičkog korisničkog interfejsa.
+- Intuitivan dizajn korisničkog interfejsa koji omogućava lako upravljanje podacima.
 
-Ovo je studebtsju projekat u sklopu predmeta "Seminarski rad A" na Prirodno-matematičkom fakultetu, univerziteta u Novom Sadu. Razvijena je desktop aplikacija za upravljanje bibliotekom, korišćenjem alata: **Python**, **Tkinter** i **SQLAlchemy**. Omogućava korisnicima da upravljaju knjigama, autorima, izdavačima, kategorijama, članovima, rezervacijama i transakcijama kroz intuitivan grafički interfejs.
+## Tehnologije
 
----
+- **Python**: Glavni programski jezik.
+- **Tkinter**: Za grafički korisnički interfejs.
+- **SQLAlchemy**: Za rad sa bazom podataka i ORM.
+- **SQLite**: Baza podataka korišćena u projektu.
 
-## 🛠️ Funkcionalnosti
+## Struktura Projekta
 
-- **Upravljanje knjigama**: Dodavanje, ažuriranje, pretraga, brisanje i proveravanje dostupnosti knjiga.
-- **Upravljanje autorima**: Dodavanje autora, pretraga po imenu, ažuriranje podataka i brisanje autora.
-- **Upravljanje izdavačima**: Dodavanje izdavača, pretraga, ažuriranje i brisanje.
-- **Upravljanje kategorijama**: Dodavanje, ažuriranje i pretraga kategorija.
-- **Upravljanje članovima**: Evidencija članova, pretraga, dodavanje i ažuriranje podataka.
-- **Rezervacije i transakcije**: Upravljanje rezervacijama knjiga i evidencija zaduženja i vraćanja knjiga.
-- **Pregled podataka**: Prikaz svih unetih podataka uz mogućnost sortiranja i filtriranja.
-
----
-
-## 📂 Struktura Projekta
-├── database/ │ ├── db_setup.py # Postavka baze podataka │ ├── db_operations.py # CRUD operacije za bazu podataka │ └── models.py # SQLAlchemy modeli ├── gui/ │ ├── main_gui.py # Glavni grafički interfejs │ ├── book_gui.py # GUI za knjige │ ├── author_gui.py # GUI za autore │ ├── category_gui.py # GUI za kategorije │ ├── publisher_gui.py # GUI za izdavače │ ├── member_gui.py # GUI za članove │ ├── reservation_gui.py # GUI za rezervacije │ └── transaction_gui.py # GUI za transakcije ├── services/ │ ├── book_service.py # Servisi za knjige │ ├── author_service.py # Servisi za autore │ ├── category_service.py # Servisi za kategorije │ ├── publisher_service.py # Servisi za izdavače │ ├── member_service.py # Servisi za članove │ ├── reservation_service.py # Servisi za rezervacije │ └── transaction_service.py # Servisi za transakcije ├── app.py # Ulazna tačka aplikacije └── requirements.txt # Lista potrebnih biblioteka
+```plaintext
+├── database/
+│   ├── db_setup.py          # Postavka baze podataka
+│   ├── db_operations.py     # CRUD operacije za bazu podataka
+│   └── models.py            # SQLAlchemy modeli
+├── gui/
+│   ├── main_gui.py          # Glavni grafički interfejs
+│   ├── book_gui.py          # GUI za knjige
+│   ├── author_gui.py        # GUI za autore
+│   ├── category_gui.py      # GUI za kategorije
+│   ├── publisher_gui.py     # GUI za izdavače
+│   ├── member_gui.py        # GUI za članove
+│   ├── reservation_gui.py   # GUI za rezervacije
+│   └── transaction_gui.py   # GUI za transakcije
+├── services/
+│   ├── book_service.py      # Servisi za knjige
+│   ├── author_service.py    # Servisi za autore
+│   ├── category_service.py  # Servisi za kategorije
+│   ├── publisher_service.py # Servisi za izdavače
+│   ├── member_service.py    # Servisi za članove
+│   ├── reservation_service.py # Servisi za rezervacije
+│   └── transaction_service.py # Servisi za transakcije
+├── app.py                   # Ulazna tačka aplikacije
+└── requirements.txt         # Lista potrebnih biblioteka
+```
 
