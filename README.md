@@ -1,6 +1,6 @@
 # 📚 Sistem za upravljanje bibliotekom
 
-Ovaj projekat implementira aplikaciju za upravljanje bibliotekom koristeći Python, Tkinter za grafički interfejs i SQLAlchemy za upravljanje bazom podataka.
+Ovaj studentski projekat, realizovan u okviru predmeta Seminarski rad A na Prirodno-matematičkom fakultetu, Univerziteta u Novom Sadu, implementira aplikaciju za upravljanje bibliotekom. Osnovni cilj projekta je demonstracija ORM pristupa u Pythonu.
 
 ## 🛠️ Funkcionalnosti
 
