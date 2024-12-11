@@ -13,7 +13,7 @@ Ovaj projekat implementira aplikaciju za upravljanje bibliotekom koristeći Pyth
 - **Python**: Glavni programski jezik.
 - **Tkinter**: Za grafički korisnički interfejs.
 - **SQLAlchemy**: Za rad sa bazom podataka i ORM.
-- **SQLite**: Baza podataka korišćena u projektu.
+- **PostgreSQL**: Baza podataka korišćena u projektu.
 
 ## 📂 Struktura Projekta
  
