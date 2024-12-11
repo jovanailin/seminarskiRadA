@@ -55,8 +55,7 @@ cd library-management-system
 Preporučuje se korišćenje virtuelnog okruženja:
 ```bash
 python -m venv venv
-source vvenv/bin/activate  # Za Linux/MacOS
-venv\Scripts\activate     # Za Windows
+venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
